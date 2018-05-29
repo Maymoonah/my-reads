@@ -22,6 +22,26 @@
   font-size: large;
 }
 
+.Header {
+  background-color: #4286f4;
+}
+
+.Current {
+  background-color: #ed447a;
+}
+
+.WantTo {
+  background-color: #19a878;
+}
+
+.Read {
+  background-color: #8d2cc1;
+}
+
+h1 {
+  margin: 0;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
