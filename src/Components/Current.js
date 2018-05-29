@@ -4,7 +4,8 @@ class Current extends Component {
 	render() {
 		return (
 			<div className="Current">
-				<h1>Current Component</h1>
+				<h3>Currently Reading</h3>
+				<hr />
 			</div>
 		);
 	}
