@@ -23,19 +23,30 @@
 }
 
 .Header {
-  background-color: #4286f4;
+  background-color: #2e5bc1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  font-family: 'Lobster Two', cursive;
+  color: #fff;
+  text-shadow: 4px 4px #000;
 }
 
 .Current {
   background-color: #ed447a;
+  margin-top: 100px;
+  height: 400px;
 }
 
 .WantTo {
   background-color: #19a878;
+  height: 400px;
 }
 
 .Read {
   background-color: #8d2cc1;
+  height: 400px;
 }
 
 h1 {
