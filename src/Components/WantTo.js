@@ -4,7 +4,8 @@ class WantTo extends Component {
 	render() {
 		return (
 			<div className="WantTo">
-				<h1>WantTo Component</h1>
+				<h3>Want To Read</h3>
+				<hr />
 			</div>			
 		);
 	}
