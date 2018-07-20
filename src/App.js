@@ -20,14 +20,7 @@ class App extends Component {
     BooksAPI.getAll()
     .then(response => {
       this.setState({books: response});
-      console.log(this.state.books)
     })
-
-    BooksAPI.search('tree').then(response => {
-      this.setState({search: response}); 
-      console.log(response);
-    })
-
   }
 
   render() {
