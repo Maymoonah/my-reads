@@ -16,7 +16,7 @@ const Current = ({book}) =>  {
 			<h3>Currently Reading</h3>
 			{book.map((el) => {
 				return (
-					<li key={el.id} id="booksList">
+					<li key={el.id} className="booksList">
 						<img src={el.imageLinks.thumbnail} alt={el.title}/>
 						<select id="select">
 							<option></option>
